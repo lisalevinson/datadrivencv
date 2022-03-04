@@ -14,13 +14,14 @@ Imports:
     tidyr,
     glue,
     readr,
-    googlesheets4,
+    googlesheets4 (>= 1.0.0),
     lubridate,
     purrr,
     stringr,
     magrittr,
     pagedown,
     fs,
+    icons (>= 0.1.0),
     whisker
 RoxygenNote: 7.0.2
 Roxygen: list(markdown = TRUE)
