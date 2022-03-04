@@ -17,6 +17,13 @@ This is a fork of the original repository that removes a dependency on the packa
 devtools::install_github("lisalevinson/datadrivencv")
 ```
 
+Then you can install the icons package with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("mitchelloharawild/icons")
+```
+
 # Motivation
 
 ## Updating a CV is not fun
