@@ -10,11 +10,11 @@ separating the content from the output by treating entries as data.
 
 ## Installation
 
-The development version from [GitHub](https://github.com/) with:
+This is a fork of the original repository that removes a dependency on the package "icon" that prevents install. You can install this forked development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("nstrayer/datadrivencv")
+devtools::install_github("lisalevinson/datadrivencv")
 ```
 
 # Motivation
