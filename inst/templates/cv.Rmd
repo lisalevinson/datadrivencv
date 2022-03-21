@@ -75,7 +75,7 @@ CV %>% print_contact_info()
 
 
 
-Language Skills {#skills}
+Technical Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -108,22 +108,20 @@ CV %<>% print_text_block("intro")
 
 
 
+Appointments {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('positions')
+```
+
+
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('education')
 ```
-
-
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('research_positions')
-```
-
 
 
 Industry Experience {data-icon=suitcase}
@@ -136,7 +134,7 @@ CV %<>% print_text_block('industy_experience_aside')
 :::
 
 ```{r}
-CV %<>% print_section('industry_positions')
+CV %<>% print_section('invited_presentation')
 ```
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
@@ -144,7 +142,7 @@ CV %<>% print_section('industry_positions')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
+Refereed Conference Presentations {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -154,12 +152,12 @@ CV %<>% print_text_block('teaching_experience_aside')
 :::
 
 ```{r}
-CV %<>% print_section('teaching_positions')
+CV %<>% print_section('refereed_conference')
 ```
 
 
 
-Selected Data Science Writing {data-icon=chart-line}
+Peer-Reviewed Publications {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -169,16 +167,16 @@ CV %<>% print_text_block('data_science_writing_aside')
 :::
 
 ```{r}
-CV %<>% print_section('data_science_writings')
+CV %<>% print_section('reviewed_writing')
 ```
 
 
 
-Selected Press (About)  {data-icon=newspaper}
+Other Publications  {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('about_me_press')
+CV %<>% print_section('other_writing')
 ```
 
 
@@ -186,20 +184,20 @@ CV %<>% print_section('about_me_press')
 <br>
 
 
-Selected Press (By)  {data-icon=newspaper}
+Grants and Fellowships {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('by_me_press')
+CV %<>% print_section('grants')
 ```
 
 
 
-Selected Publications, Posters, and Talks {data-icon=book}
+Invited Presentations {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('academic_articles')
+CV %<>% print_section('invited_presentation')
 ```
 
 
